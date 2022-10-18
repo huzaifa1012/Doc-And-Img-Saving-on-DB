@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./firebaseconfig.js" type="module"></script>
+    <link rel="stylesheet" href="mainStyle.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Main Page</title>
+</head>
+
+<body style="background-color: rgba(21, 255, 0, 0.315);">
+
+    <a href="./index.html" style="color: white; text-decoration: none; text-align:center ; display: inline;">SIGN IN
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="deleteAcc" style="background-color: rgba(255, 0, 0, 0.5); border: none; padding: 5px; margin: 0%; color:  white; text-decoration: none;display: flex;   align-items: flex-end; display: inline;">
+        Delete Account</button>
+    <h1 style="text-align: center; font-family: Verdana;">Welcome</h1>
+    <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Save Data On DataBase</h2>
+    <div class="inputs">
+        <input type="file" id="profile">
+        <input type="text" id="name" class="input-main" placeholder="Name"><br>
+        <input type="email" id="email" class="input-main" placeholder="Email"><br>
+        <input type="password" id="password" class="input-main" placeholder="Password"><br>
+    <button id="submit" style="width: 140px; height: 30px;border: none;background-color: rgba(2, 0, 122, 0.822);color: white; border-radius: 4px; "> Save Data</button>
+    </div>
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
